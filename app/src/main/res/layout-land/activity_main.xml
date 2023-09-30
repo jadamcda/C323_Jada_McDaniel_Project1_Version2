@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textAlignment="textEnd"
+        android:textSize="60sp"
+        />
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/c"
+            android:text="@string/c"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/plusMinus"
+            android:text="@string/plusMinus"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/percent"
+            android:text="@string/percent"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/divide"
+            android:text="@string/divide"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/sin"
+            android:text="@string/sin"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_7"
+            android:text="@string/_7"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_8"
+            android:text="@string/_8"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_9"
+            android:text="@string/_9"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/x"
+            android:text="@string/x"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/cos"
+            android:text="@string/cos"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_4"
+            android:text="@string/_4"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_5"
+            android:text="@string/_5"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_6"
+            android:text="@string/_6"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/minus"
+            android:text="@string/minus"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/tan"
+            android:text="@string/tan"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_1"
+            android:text="@string/_1"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_2"
+            android:text="@string/_2"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_3"
+            android:text="@string/_3"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/plus"
+            android:text="@string/plus"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonOperator"
+            android:id="@+id/log"
+            android:text="@string/log"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/_0"
+            android:layout_weight="2"
+            android:text="@string/_0"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/decimal"
+            android:text="@string/decimal"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/equals"
+            android:text="@string/equals"
+            tools:ignore="VisualLintButtonSize" />
+        <Button
+            style="@style/buttonNumber"
+            android:id="@+id/ln"
+            android:text="@string/ln"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+</LinearLayout>
