@@ -1,4 +1,4 @@
-# Project 1 Calculator
+# Project 2 Calculator
 
 Description of the project ...
 * Calculator application. This calculator has similar functionality to the iPhone calculator app and other basic calculator applications.
@@ -9,7 +9,8 @@ The following **required** functionality is completed:
 
 * [ ] User sees calculator UI with all buttons and top result views
 * [ ] User can do all mathematical operations with PEMDAS
-* [ ] User can use decimals, negatives, and percentages
+* [ ] User can use decimals, negatives, percentages, cos, sin, tan, ln, and log10 in math operations.
+* [ ] User can rotate orientation
 * [ ] User can clear.
 
 The following **extensions** are implemented:
@@ -19,7 +20,7 @@ The following **extensions** are implemented:
 ## Notes
 
 Describe any challenges encountered while building the app.
-* It took me a very long time just to figure out how to get the buttons to work.
+* I encountered numerous difficulties just trying to figure out how to use Android Studio
 
 ## License
 
